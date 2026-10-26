@@ -6,25 +6,25 @@ cask "envhaul" do
     end
   end
 
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      sha256 "e9cdf06eca1f7a105af9a99d05ce71296a00e1e9bc79277bd7f6c3c0542c1c05"
+      sha256 "4cb8896e9c1c5ed79234e8466cdca550a9567a5284eb841734ae4c79e70a8dd8"
       url "https://github.com/davidtucker/envhaul/releases/download/v#{version}/envhaul_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "db214c75d02dbe32fcdc60745804f8c685f0703d27dfc5656176aaaeac2c3b45"
+      sha256 "06cd8418425a381e0a603ce08997b20b2050d607dacbd55f6a9ea432b566a63a"
       url "https://github.com/davidtucker/envhaul/releases/download/v#{version}/envhaul_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "02034d4953123e2d78fbc0e2c5c36fca1563654c59172e52eaa27eb67933da14"
+      sha256 "f01e9bd262ef0ff884a77637e4174ab1c1a94f0f67a9c6e05fe3ebe7ffb9dee3"
       url "https://github.com/davidtucker/envhaul/releases/download/v#{version}/envhaul_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "fd2ce4fa9574b803082ca2b09d526ecc51d412781c039d9aa012857e01cbe989"
+      sha256 "c6766c27ee4e61bf0a29dec0e8c977ca912139043042f0b2f3da43c1823e3d47"
       url "https://github.com/davidtucker/envhaul/releases/download/v#{version}/envhaul_#{version}_linux_amd64.tar.gz"
     end
   end
