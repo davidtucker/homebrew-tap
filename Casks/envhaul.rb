@@ -37,7 +37,7 @@ cask "envhaul" do
   zsh_completion "completions/envhaul.zsh"
   fish_completion "completions/envhaul.fish"
 
-  postflight_steps do
+  postflight do
     if OS.mac?
       system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/envhaul"]
     end
